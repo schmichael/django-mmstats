@@ -1,4 +1,5 @@
 .noseids
+*.db
 *.egg-info
 *.orig
 *.pyc
@@ -8,5 +9,6 @@ build
 dist
 share
 lib
+local
 include
 man

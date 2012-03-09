@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <ul>
+        {% for food in top_votes %}
+            <li>{{ food.food }}: {{ food.votes }}</li>
+        {% endfor %}
+        </ul>
+        <p><a href="/voting">Back to voting</a></p>
+    <body>
+<body>
